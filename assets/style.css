@@ -35,7 +35,11 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #333333;
+}
+
+.nav a:hover {
+    color: #000000;
 }
 
 .social-link img {
@@ -48,6 +52,7 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+	background-color: #F6D2B8;
 }
 
 .picture.left::before {
@@ -72,7 +77,8 @@ body {
 
 }
 #about-me {
-	flex: 2
+	flex: 2;
+	color: #333333;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -241,6 +247,7 @@ form textarea {
 }
 input[type="submit"] {
 	background-color: #BEB45A;
+	color: #333333;
 	padding: .5em 1em
 }
 
@@ -323,6 +330,8 @@ input[type="submit"] {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
+		background-color: #FFFFFF;
+    	color: #333333; 
 	}
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
